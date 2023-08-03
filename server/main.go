@@ -42,6 +42,8 @@ func main() {
 	//puts the car collection to all
 	carCtrl := controller.New(CarCollection)
 	router.POST("/car", carCtrl.CreateCar)
+	router.GET("/car",	carCtrl.GetCars)
+	router.GET("/oneCar", carCtrl.GetOneCar)
 	fmt.Println("Connecting service to localhost:3001...")
 	log.Fatal(router.Run(":3001"))
 }
