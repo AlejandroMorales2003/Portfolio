@@ -5,6 +5,10 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func GetHealth(c *gin.Context) {
-	c.IndentedJSON(http.StatusAccepted,"It's all good in the hood")
+type HealthController interface {
+	GetHealth(ctx *gin.Context)
+}
+
+func (c *controller) GetHealth(ctx *gin.Context) {
+	ctx.IndentedJSON(http.StatusAccepted,"It's all good in the hood")
 }
