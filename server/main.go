@@ -40,8 +40,8 @@ func main() {
 
 	router := gin.New()
 	//puts the car collection to all
-	ctrl := controller.New(CarCollection)
-	router.POST("/car", ctrl.CreateCar)
+	carCtrl := controller.New(CarCollection)
+	router.POST("/car", carCtrl.CreateCar)
 	fmt.Println("Connecting service to localhost:3001...")
 	log.Fatal(router.Run(":3001"))
 }
