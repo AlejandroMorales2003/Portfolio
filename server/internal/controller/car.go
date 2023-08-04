@@ -11,7 +11,6 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
-
 type CarController interface {
 	CreateCar(ctx *gin.Context)
 	GetCars(ctx *gin.Context)
