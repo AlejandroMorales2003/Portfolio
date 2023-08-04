@@ -55,6 +55,8 @@ func main() {
 	//gets one car
 	adminGroup.GET("/oneCar", carCtrl.GetOneCar)
 
+	adminGroup.DELETE("/delete",carCtrl.DeleteCar)
+
 	//begins web service
 	fmt.Println("Connecting service to localhost:3001...")
 	log.Fatal(router.Run(":3001"))

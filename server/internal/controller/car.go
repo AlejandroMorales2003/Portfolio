@@ -15,6 +15,7 @@ type CarController interface {
 	CreateCar(ctx *gin.Context)
 	GetCars(ctx *gin.Context)
 	GetOneCar(ctx *gin.Context)
+	DeleteCar(ctx *gin.Context)
 }
 
 func (c *controller) CreateCar(ctx *gin.Context) {
@@ -73,4 +74,21 @@ func (c *controller) GetOneCar(ctx *gin.Context) {
 	}
 	fmt.Println("FOUND THE CAR!", result)
 	ctx.IndentedJSON(http.StatusOK, result)
+}
+
+func(c *controller) DeleteCar(ctx *gin.Context) {
+	var car model.Car
+	if err:= ctx.BindJSON(&car); err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	var result bson.M
+	err := c.collection.FindOneAndDelete(context.TODO(), bson.M{"make":car.Make,"model":car.Model,"year":car.Year}).Decode(&result)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Println("DELETED THE CAR!", result)
+	ctx.IndentedJSON(http.StatusOK, gin.H{"Deleted the car": result})
 }
