@@ -21,8 +21,8 @@ type CarController interface {
 func (c *controller) CreateCar(ctx *gin.Context) {
 	var car model.Car
 	if err:= ctx.BindJSON(&car); err != nil {
-		ctx.IndentedJSON(http.StatusBadRequest, "Invalid Creation of Car, Please try Again")
-		ctx.JSON(http.StatusBadRequest,err)
+		ctx.IndentedJSON(http.StatusBadRequest, gin.H{"Invalid Creation of Car, Please try Again": err})
+		fmt.Println("Invalid Creation of Car, Please try Again", err)
 		return
 	}
 
@@ -31,7 +31,7 @@ func (c *controller) CreateCar(ctx *gin.Context) {
 		fmt.Println(err)
 		return
 	}
-	ctx.IndentedJSON(http.StatusOK, result)
+	ctx.IndentedJSON(http.StatusOK, gin.H{"ID":result, "Car Info" : car})
 
 }
 
@@ -92,3 +92,14 @@ func(c *controller) DeleteCar(ctx *gin.Context) {
 	fmt.Println("DELETED THE CAR!", result)
 	ctx.IndentedJSON(http.StatusOK, gin.H{"Deleted the car": result})
 }
+/* /* 
+func(c* controller) UpdateCar(ctx *gin.Context) {
+	var car model.Car
+	if err:=ctx.BindJSON(&car); err != nil {
+		fmt.Println(err)
+		return
+	}
+
+		c.collection.Up
+	result, err := c.collection.UpdateOne(context.TODO(),bson.M{"make":car.Make,"model":car.Model,"year":car.Year})
+} /* */
