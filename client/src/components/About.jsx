@@ -29,14 +29,14 @@ const About = () => {
     <div name="About Page" className='bg-white xl:h-screen w-full flex flex-col items-center'>
 
         {/* About Introduction Text container */}
-        <div className='max-w-[700px] h-[300px] flex flex-col items-center justify-center border-b-[2px]'>
-            <p className="text-[#964b00] font-bold text-[40px]">about me</p>
+        <div className='max-w-[700px] sm:h-[300px] h-[200px] flex flex-col items-center justify-center border-b-[2px]'>
+            <p className="text-[#964b00] font-bold sm:text-[40px] text-[35px]">about me</p>
             <h1 className='sm:text-4xl text-lg font-bold font-serif'>Background Info</h1>
             <h2 className='sm:text-xl text-[12px] font-serif mt-5'>Learn about me and my skills</h2>
         </div>
 
         {/* Description and Skills */}
-        <div name="BigContainer" className="mt-4 flex xl:flex-row flex-col w-full">
+        <div name="BigContainer" className="sm:mt-4 flex xl:flex-row flex-col w-full">
 
             {/* Description Container */}
             <div name="Description" className='xl:w-1/2 w-full flex-1 h-full'>
@@ -59,7 +59,7 @@ const About = () => {
             <div name="skills" className='xl:w-1/2 w-full flex-1'>
 
                 {/* Technical Skills */}
-                <div name="tech and soft skills" className='xl:pl-8 xl:pr-36 p-12'>
+                <div name="tech and soft skills" className='xl:pl-8 xl:pr-36 px-12 sm:py-12 py-0'>
 
                     {/* Toggle Switch */}
                     <div className="flex items-center justify-center">

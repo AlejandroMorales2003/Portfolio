@@ -8,13 +8,13 @@ const Experience = () => {
     <div name="Experience" className='bg-gray-100 w-full xl:h-screen flex flex-col items-center'>
         
         {/* Experience Introduction Container */}
-        <div className='max-w-[700px] h-[300px] flex flex-col items-center justify-center border-b-[2px]'>
-            <p className="text-[#964b00] font-bold text-[40px]">Experience</p>
+        <div className='max-w-[700px] sm:h-[300px] h-[200px] flex flex-col items-center justify-center border-b-[2px]'>
+            <p className="text-[#964b00] font-bold sm:text-[40px] text-[35px]">Experience</p>
             <h1 className='sm:text-4xl text-lg font-bold font-serif'>My Professional Knowledge</h1>
             <h2 className='sm:text-xl text-[12px] font-serif mt-5'>Learn about my previous job experiences and my education</h2>
         </div>
 
-        <div name="BigContainer" className="mt-4 flex xl:flex-row flex-col w-full">
+        <div name="BigContainer" className="sm:mt-4 flex xl:flex-row flex-col w-full">
 
             {/* Work Experience Container */}
             <div name="Work Experience" className='xl:w-1/2 w-full flex-1 h-full'>
@@ -119,7 +119,7 @@ const Experience = () => {
 
             {/* Educaiton Container */}
             <div name="Education" className='xl:w-1/2 w-full flex-1'>
-                <div className='xl:pr-36 xl:pl-8 p-12'>
+                <div className='xl:pr-36 xl:pl-8 px-12 sm:py-12 py-0'>
 
                     {/* Current Education Container */}
                     <h1 className='sm:text-4xl text-lg font-bold font-mono'>Education</h1>
