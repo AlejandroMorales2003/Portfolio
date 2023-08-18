@@ -1,10 +1,25 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from "react-icons/fa"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
-
     const handleClick = () => setNav(!nav)
+
+    const [scrollPercent, setScrollPercent] = useState(0);
+
+    const handleScroll = () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const currentScrollPercent = (scrollTop / docHeight) * 100;
+        setScrollPercent(currentScrollPercent);
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center z-[1] px-4 text-white bg-black'>
@@ -39,6 +54,8 @@ const Navbar = () => {
         </ul>
 
         {/* Social Icons */}
+
+        {scrollPercent > 5.0 ? "" :
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
             <ul>
                 {/* LinkedIn */}
@@ -63,6 +80,7 @@ const Navbar = () => {
                 </li>
             </ul>
         </div>
+        }
     </div>
   )
 }
