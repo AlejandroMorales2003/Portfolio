@@ -27,7 +27,7 @@ const Home = () => {
         </div>
 
         {/* Picture Container */}
-        <div name="professional-container" className='hidden 2xl:flex absolute top-[55%] right-[12%] translate-y-[-50%] w-[568px] h-[568px] overflow-hidden pointer-events-none'>
+        <div name="professional-container" className='hidden xl:flex absolute top-[55%] right-[12%] translate-y-[-50%] w-[568px] h-[568px] overflow-hidden pointer-events-none'>
             <img alt="Alejandro's Portrait" src={Portrait} className="object-cover w-full h-full rounded-full border-[1px] border-[#cd8c4c]"/>
         </div>
     </div>
