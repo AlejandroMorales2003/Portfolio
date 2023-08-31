@@ -6,7 +6,7 @@ import BookNook from '../images/ProjectsPage/booknookwebsite.png'
 const Projects = () => {
   return (
     /* sm:mb-24 mb-1 */
-    <div name="Projects" className='bg-gray-100 w-full flex flex-col items-center sm:pb-24 pb-12'> 
+    <div name="projects" className='bg-gray-100 w-full flex flex-col items-center sm:pb-24 pb-12'> 
         {/*  SHPE Introduction Container */}
         <div className='max-w-[700px] sm:h-[300px] h-[200px] flex flex-col items-center justify-center border-b-[2px]'>
             <p className="text-[#964b00] font-bold sm:text-[40px] text-[35px] text-center">Projects</p>
@@ -36,8 +36,8 @@ const Projects = () => {
                         </div>
 
                         <div className='mt-8 flex justify-center text-white'>
-                            <button className='bg-black w-[100px] h-[50px] m-8'>Github</button>
-                            <button className='bg-black w-[100px] h-[50px] m-8'>Website</button>
+                            <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Github</button>
+                            <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Website</button>
                         </div>
                         
                     </div>
@@ -66,8 +66,8 @@ const Projects = () => {
                         </div>
 
                         <div className='mt-8 flex justify-center text-white'>
-                            <button className='bg-black w-[100px] h-[50px] m-8'>Github</button>
-                            <button className='bg-black w-[100px] h-[50px] m-8'>Website</button>
+                            <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Github</button>
+                            <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500' >Website</button>
                         </div>
                         
                     </div>
@@ -96,8 +96,8 @@ const Projects = () => {
                         </div>
 
                         <div className='mt-8 flex justify-center text-white'>
-                            <button className='bg-black w-[100px] h-[50px] m-8'>Github</button>
-                            <button className='bg-black w-[100px] h-[50px] m-8'>Website</button>
+                            <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Github</button>
+                            <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Website</button>
                         </div>
                         
                     </div>

@@ -26,7 +26,7 @@ const About = () => {
 
 
   return (
-    <div name="About Page" className='bg-white xl:h-screen w-full flex flex-col items-center'>
+    <div name="about" className='bg-white xl:h-screen w-full flex flex-col items-center'>
 
         {/* About Introduction Text container */}
         <div className='max-w-[700px] sm:h-[300px] h-[200px] flex flex-col items-center justify-center border-b-[2px]'>
@@ -66,13 +66,14 @@ const About = () => {
                         <span className={`font-bold font-mono sm:text-[20px] text-[12px] ${isChecked ? 'dark:text-gray-300' : 'text-black'} mr-3 transition-colors`}>
                             Technical Skills
                         </span>
-                        <label className="relative inline-flex items-center cursor-pointer">
+                        <label className="hover:scale-110 duration-300 relative inline-flex items-center cursor-pointer">
                             <input type="checkbox" value="" className="sr-only peer" checked={isChecked} onChange={handleToggle}/>
-                            <div className="w-11 h-6 peer-focus:ring-2 dark:peer-focus:ring-black rounded-full peer bg-gray-700 peer-checked:after:translate-x-full after:content-[''] after:absolute sm:after:top-[5px] after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-[#964b00]"></div>
+                            <div className="w-11 h-6 peer-focus:ring-2 dark:peer-focus:ring-black rounded-full peer bg-gray-700 peer-checked:after:translate-x-full after:content-[''] after:absolute sm:after:top-[2px] after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-[#964b00]"></div>
+                        </label>
                         <span className={`font-bold font-mono sm:text-[20px] text-[12px] ${isChecked ? 'text-blue' : 'dark:text-gray-300'} ml-3 transition-colors`}>
                             Soft Skills
                         </span>
-                        </label>
+                        
                     </div>
 
                     {/* Technical Skill Images Container */}
@@ -122,8 +123,8 @@ const About = () => {
                             <p>Leadership</p>
                         </div>
                         <div className='shadow-md shadow-black hover:scale-105 duration-500'>
-                            <img className='object-fill w-32 h-32 m-auto' src={Empathy} alt="Empathy Icon"/>
-                            <p>Empathy</p>
+                            <img className='object-fill w-32 h-32 m-auto' src={Empathy} alt="Bilingual Icon"/>
+                            <p>Bilingual</p>
                         </div>
                         <div className='shadow-md shadow-black hover:scale-105 duration-500'>
                             <img className='object-fill w-32 h-32 m-auto' src={WorkEthic} alt="WorkEthic Icon"/>

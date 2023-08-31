@@ -2,6 +2,7 @@ import React from 'react'
 import Nature from '../images/HomePage/bg.jpeg'
 import Portrait from '../images/HomePage/AliG.png'
 import {FaCaretDown } from 'react-icons/fa'
+import {Link} from "react-scroll"
 
 const Home = () => {
   return (
@@ -17,7 +18,11 @@ const Home = () => {
 
             {/* Scroll down button */}
             <div>
-                <button className='flex items-center border-t-[1px] px-6 py-1 hover:text-[#cd8c4c] hover:border-[#cd8c4c]'>scroll down <FaCaretDown/></button>
+                <Link to="about" offset={-75} smooth={true} duration={700}>
+                <button className='flex items-center border-t-[1px] px-6 py-1 hover:text-[#cd8c4c] hover:border-[#cd8c4c] hover:scale-105 duration-500'>
+                    scroll down <FaCaretDown/>
+                </button>
+                </Link>
             </div>
         </div>
 

@@ -5,7 +5,7 @@ import Outreach from '../images/SHPEPage/outreach.png'
 
 const SHPE = () => {
   return (
-    <div name="SHPE" className='w-full flex flex-col items-center sm:mb-24 mb-12'>
+    <div name="shpe" className='w-full flex flex-col items-center sm:mb-24 mb-12'>
         
         {/*  SHPE Introduction Container */}
         <div className='sm:mt-10 max-w-[700px] sm:h-[300px] h-[250px] flex flex-col items-center justify-center border-b-[2px]'>

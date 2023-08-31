@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaInstagram} from "react-icons/fa"
+import {Link} from "react-scroll"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -21,36 +22,92 @@ const Navbar = () => {
         };
       }, []);
 
+    const closeMenu = () => {
+        setNav(false)
+    }
+
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center z-[1] px-4 text-white bg-black'>
  
         {/* Logo Container */}
         <div>
-                <p className=' cursor-pointer text-[55px] duration-300 hover:text-[#cd8c4c]'>AMC</p>
+                <p className='cursor-pointer text-[55px] duration-500 hover:text-[#cd8c4c] hover:scale-105'>
+                    <Link to="home" smooth={true} duration={700}>
+                        AMC
+                    </Link>
+                </p>
         </div>
 
         {/* Menu */}
         <ul className='hidden md:flex text-[18px]'>
-                <li className='duration-300 hover:text-[#cd8c4c]'>Home</li>
-                <li className='duration-300 hover:text-[#cd8c4c]'>About</li>
-                <li className='duration-300 hover:text-[#cd8c4c]'>Experience</li>
-                <li className='duration-300 hover:text-[#cd8c4c]'>Shpe</li>
-                <li className='duration-300 hover:text-[#cd8c4c]'>Projects</li>
-                <li className='duration-300 hover:text-[#cd8c4c]'>Contact</li>
+                <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105'>
+                    <Link to="home" smooth={true} offset={-75} duration={700}>
+                        Home
+                    </Link>
+                </li>
+                <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105'>
+                    <Link to="about" smooth={true} offset={-75} duration={700}>
+                        About
+                    </Link>
+                </li>
+                <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105'>
+                    <Link to="experience" smooth={true} offset={-75} duration={700}>
+                        Experience
+                    </Link>
+                </li>
+                <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105'>
+                    <Link to="shpe" smooth={true} offset={-75} duration={700}>
+                        SHPE
+                    </Link>
+                </li>
+                <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105'>
+                    <Link to="projects" smooth={true} offset={-75} duration={700}>
+                        Projects
+                    </Link>
+                </li>
+                <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105'>
+                    <Link to="contact" smooth={true} offset={-75} duration={700}>
+                        Contact
+                    </Link>
+                </li>
         </ul>
 
         {/* Hamburger */}
-        <div onClick={handleClick} className='md:hidden z-10 cursor-pointer duration-300 hover:text-[#cd8c4c]'>
+        <div onClick={handleClick} className='md:hidden z-10 cursor-pointer duration-300 hover:text-[#cd8c4c] hover:scale-125'>
             {!nav ? <FaBars/> : <FaTimes/>}
         </div>
         {/* Mobile Menu  */}
         <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen md:hidden flex flex-col justify-center items-center text-4xl bg-black'}>
-            <li className='duration-300 hover:text-[#cd8c4c] py-6'>Home</li>
-            <li className='duration-300 hover:text-[#cd8c4c] py-6'>About</li>
-            <li className='duration-300 hover:text-[#cd8c4c] py-6'>Experience</li>
-            <li className='duration-300 hover:text-[#cd8c4c] py-6'>Shpe</li>
-            <li className='duration-300 hover:text-[#cd8c4c] py-6'>Projects</li>
-            <li className='duration-300 hover:text-[#cd8c4c] py-6'>Contact</li>
+            <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105 py-6'>
+                <Link to="home" smooth={true} duration={700} onClick={closeMenu}>
+                    Home
+                </Link>
+            </li>
+            <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105 py-6'>
+                <Link to="about" smooth={true} duration={700} offset={-75} onClick={closeMenu}>
+                    About
+                </Link>
+            </li>
+            <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105 py-6'>
+                <Link to="experience" smooth={true} duration={700} offset={-75} onClick={closeMenu}>
+                    Experience
+                </Link>
+            </li>
+            <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105 py-6'>
+                <Link to="shpe" smooth={true} duration={700} offset={-75} onClick={closeMenu}>
+                        SHPE
+                </Link>
+            </li>
+            <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105 py-6'>
+                <Link to="projects" smooth={true} duration={700} offset={-75} onClick={closeMenu}>
+                        Projects
+                </Link>
+            </li>
+            <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105 py-6'>
+                <Link to="contact" smooth={true} duration={700} offset={-75} onClick={closeMenu}>
+                        Contact
+                </Link>
+            </li>
         </ul>
 
         {/* Social Icons */}
