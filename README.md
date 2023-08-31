@@ -1,5 +1,1 @@
-# Portfolio
-
-Commands below fix .gitignore file
-git rm -rf --cached .          
-git add .
+# Alejandro Morales Portfolio Website

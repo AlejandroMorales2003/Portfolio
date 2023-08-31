@@ -24,21 +24,21 @@ const Contact = () => {
             <ul className='flex flex-row'>
                 {/* LinkedIn */}
                 <li className='flex items-center w-[100px] h-[60px] hover:scale-125 duration-500 hover:text-[#cd8c4c]'>
-                    <a className="flex justify-center w-full" href="/">
+                    <a className="flex justify-center w-full" href='https://www.linkedin.com/in/alejandro-morales-cernas/' target="_blank" rel="noopener noreferrer">
                         <FaLinkedin size={35}/>
                     </a>
                 </li>
 
                 {/* Github */}
                 <li className='flex items-center w-[100px] h-[60px] hover:scale-125 duration-500 hover:text-[#cd8c4c]'>
-                    <a className="flex justify-center w-full" href="/">
+                    <a className="flex justify-center w-full" href='https://github.com/AlejandroMorales2003' target="_blank" rel="noopener noreferrer">
                         <FaGithub size={35}/>
                     </a>
                 </li>
 
                 {/* Rseume */}
                 <li className='flex items-center w-[100px] h-[60px] hover:scale-125 duration-500 hover:text-[#cd8c4c]'>
-                    <a className="flex justify-center w-full" href="/">
+                    <a className="flex justify-center w-full" href='https://www.instagram.com/ali.gesus/' target="_blank" rel="noopener noreferrer">
                         <FaInstagram size={35}/>
                     </a>
                 </li>

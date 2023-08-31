@@ -117,21 +117,21 @@ const Navbar = () => {
             <ul>
                 {/* LinkedIn */}
                 <li className='w-[160px] h-[60px] flex ml-[-100px] hover:ml-[0px] duration-300 hover:text-[#cd8c4c]'>
-                    <a className="flex items-center justify-between w-full" href="/">
+                    <a href='https://www.linkedin.com/in/alejandro-morales-cernas/' target="_blank" rel="noopener noreferrer" className="flex items-center justify-between w-full">
                         Linkedin<FaLinkedin size={30}/>
                     </a>
                 </li>
 
                 {/* Github */}
                 <li className='w-[160px] h-[60px] flex ml-[-100px] hover:ml-[0px] duration-300 hover:text-[#cd8c4c]'>
-                    <a className="flex items-center justify-between w-full" href="/">
+                    <a href='https://github.com/AlejandroMorales2003' target="_blank" rel="noopener noreferrer" className="flex items-center justify-between w-full">
                         Github<FaGithub size={30}/>
                     </a>
                 </li>
 
                 {/* Rseume */}
                 <li className='w-[160px] h-[60px] flex ml-[-100px] hover:ml-[0px] duration-300 hover:text-[#cd8c4c]'>
-                    <a className="flex items-center justify-between w-full" href="/">
+                <a href='https://www.instagram.com/ali.gesus/' target="_blank" rel="noopener noreferrer" className="flex items-center justify-between w-full">
                         Instagram<FaInstagram size={30}/>
                     </a>
                 </li>

@@ -36,8 +36,12 @@ const Projects = () => {
                         </div>
 
                         <div className='mt-8 flex justify-center text-white'>
-                            <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Github</button>
-                            <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Website</button>
+                            <a href='https://github.com/AlejandroMorales2003/SHPE' target="_blank" rel="noopener noreferrer">
+                                <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Github</button>
+                            </a>
+                            <a href='https://osu-shpe.netlify.app' target="_blank" rel="noopener noreferrer">
+                                <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Website</button>
+                            </a>
                         </div>
                         
                     </div>
@@ -66,8 +70,12 @@ const Projects = () => {
                         </div>
 
                         <div className='mt-8 flex justify-center text-white'>
-                            <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Github</button>
+                            <a href='https://github.com/AlejandroMorales2003/prophetz' target="_blank" rel="noopener noreferrer">
+                                <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Github</button>
+                            </a>
+                            <a href='/' target="_blank" rel="noopener noreferrer">
                             <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500' >Website</button>
+                            </a>
                         </div>
                         
                     </div>
@@ -96,8 +104,12 @@ const Projects = () => {
                         </div>
 
                         <div className='mt-8 flex justify-center text-white'>
-                            <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Github</button>
-                            <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Website</button>
+                            <a href='https://github.com/Owen-Williamson/CS361' target="_blank" rel="noopener noreferrer">
+                                <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Github</button>
+                            </a>
+                            <a href='/' target="_blank" rel="noopener noreferrer">
+                                <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Website</button>
+                            </a>
                         </div>
                         
                     </div>
