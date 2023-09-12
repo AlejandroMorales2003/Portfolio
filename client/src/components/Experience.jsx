@@ -19,7 +19,7 @@ const Experience = () => {
             {/* Work Experience Container */}
             <div name="Work Experience" className='xl:w-1/2 w-full flex-1 h-full'>
                     {/* Text Container */}
-                <div className='xl:pl-36 xl:pr-8 p-12'>
+                <div className='xl:pl-24 xl:pr-8 p-12'>
                     <h1 className='sm:text-4xl text-lg font-bold font-mono'>Work Experience</h1>
                     <div name="jobs" className='mt-3 max-w-[700px] h-[400px] overflow-y-scroll border-[2px] border-[black] p-4' >
 
@@ -30,9 +30,9 @@ const Experience = () => {
                                 <h1 className='font-serif'>- Cloud Solutions Intern (Current Work)</h1>
                             </div>
                             <p className='font-serif sm:text-[14px] text-[10px] ml-5'>
-                            ▪ Played a key role in reducing system response time by using Go, resulting in heightened customer satisfaction and increased efficiency.<br/>
-                            ▪ Learned and adapted to HP's software tools to deploy web services on the HP software ecosystem.<br/>
-                            ▪ Created REST APIs using Go, Gin framework, Azure DevOps, Jira, and Splunk.<br/>
+                            ▪ Increased HPOne customer satisfaction by improving their user experience, trust, and retention by creating a cancel subscription microservice.<br/>
+                            ▪ Created REST APIs using Go, Azure DevOps, Jira, and Splunk to deploy web services on the HP software ecosystem.<br/>
+                            ▪ Participated in the Talent Mentorship program where I created professional connections, adopted career development skills, and integrated future events for my SHPE Chapter at Oregon State University.<br/>
                             </p>
                         </div>
 
@@ -43,9 +43,8 @@ const Experience = () => {
                                 <h1 className='font-serif'>- Learning Assistant</h1>
                             </div>
                             <p className='font-serif sm:text-[14px] text-[10px] ml-5'>
-                            ▪ Played a key role in enhancing students' learning experience, contributing to higher engagement, and improved project outcomes.<br/>
-                            ▪ Organized engineering presentations for students to practice their communication skills.<br/>
-                            ▪ Demonstrated the basics of Python to create graphs for student team projects.<br/>
+                            ▪ Enhanced students' learning experience, contributing to higher engagement, and improved project outcomes.<br/>
+                            ▪ Introduced the basics of Python to create graphs for student team projects.<br/>
                             </p>
                         </div>
 
@@ -56,9 +55,9 @@ const Experience = () => {
                                 <h1 className='font-serif'>- Garden Center Associate</h1>
                             </div>
                             <p className='font-serif sm:text-[14px] text-[10px] ml-5'>
-                            ▪ Participated in driving an increase in department sales through strategic product placement and customer satisfaction.<br/>
+                            ▪ Drove an increase in department sales through strategic product placement and customer satisfaction.<br/>
+                            ▪ Delegated tasks to associates to maintain plants and a clean department.<br/>
                             ▪ Operated a forklift, painted floors and equipment, troubleshooted TC-70s, and stocked items.<br/>
-                            ▪ Delegated tasks to associates to maintain watered plants and a clean department.<br/>
                             </p>
                         </div>
 
@@ -82,9 +81,8 @@ const Experience = () => {
                                 <h1 className='font-serif'>- Harvester</h1>
                             </div>
                             <p className='font-serif sm:text-[14px] text-[10px] ml-5'>
-                            ▪ Played an essential role in the successful harvest seasons, contributing to the production of high-quality fruits and the operational excellence of Rivercider.<br/>
-                            ▪ Picked apples and pears in harsh summer weather conditions.<br/>
-                            ▪ Cultivated physical prowess and mental resilience which taught me the the value of education<br/>
+                            ▪ Contributed to the production of high-quality fruits and the successful harvest seasons of Rivercider. <br/>
+                            ▪ Harvested apples and pears during harsh summer weather conditions, an experience that enabled me to cultivate physical strength and mental resilience, emphasizing the importance of pursuing higher education.<br/>
                             </p>
                         </div>
 
@@ -95,7 +93,7 @@ const Experience = () => {
                                 <h1 className='font-serif'>- Math Tutor</h1>
                             </div>
                             <p className='font-serif sm:text-[14px] text-[10px] ml-5'>
-                            ▪ Contributed to a positive learning environment, instilling confidence and enthusiasm for math students at Wildwood Academy.<br/>
+                            ▪ Instilled confidence and enthusiasm for math students, improving student's grades at Wildwood Academy.<br/>
                             ▪ Tutored Pre-Algebra through Calculus to help students excel in middle school or high school.<br/>
                             ▪ Conducted fun lectures to demonstrate the significance of math and improve math retention.<br/>
                             </p>
@@ -119,7 +117,7 @@ const Experience = () => {
 
             {/* Educaiton Container */}
             <div name="Education" className='xl:w-1/2 w-full flex-1'>
-                <div className='xl:pr-36 xl:pl-8 px-12 sm:py-12 py-0'>
+                <div className='xl:pr-24 xl:pl-8 px-12 sm:py-12 py-0'>
 
                     {/* Current Education Container */}
                     <h1 className='sm:text-4xl text-lg font-bold font-mono'>Education</h1>
