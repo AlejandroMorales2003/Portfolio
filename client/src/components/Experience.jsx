@@ -5,7 +5,7 @@ import WGU from '../images/ExperiencePage/wgu.png'
 
 const Experience = () => {
   return (
-    <div name="experience" className='bg-gray-100 w-full xl:h-screen flex flex-col items-center'>
+    <div name="experience" className='bg-gray-100 w-full flex flex-col items-center'>
         
         {/* Experience Introduction Container */}
         <div className='max-w-[700px] sm:h-[300px] h-[200px] flex flex-col items-center justify-center border-b-[2px]'>

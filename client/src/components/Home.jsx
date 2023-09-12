@@ -18,7 +18,7 @@ const Home = () => {
             </div>
 
             <div className='flex-1 flex flex-col p-4 items-center justify-center text-white'>
-                <p className="text-[#cd8c4c] text-[30px] mr-60">howdy</p>
+                <p className="text-[#cd8c4c] text-[30px] mr-60">Howdy</p>
                 <h1 className='text-lg sm:text-3xl xl:text-4xl font-serif outline-dark'>I am Alejandro Morales Cernas.</h1>
                 <h2 className='text-lg sm:text-3xl xl:text-4xl font-serif mt-1'>I am a Software Developer.</h2>
 

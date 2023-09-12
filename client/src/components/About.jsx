@@ -26,7 +26,7 @@ const About = () => {
 
 
   return (
-    <div name="about" className='bg-white xl:h-screen w-full flex flex-col items-center'>
+    <div name="about" className='bg-white w-full flex flex-col items-center'>
 
         {/* About Introduction Text container */}
         <div className='max-w-[700px] sm:h-[300px] h-[200px] flex flex-col items-center justify-center border-b-[2px]'>
