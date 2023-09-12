@@ -30,9 +30,9 @@ const About = () => {
 
         {/* About Introduction Text container */}
         <div className='max-w-[700px] sm:h-[300px] h-[200px] flex flex-col items-center justify-center border-b-[2px]'>
-            <p className="text-[#964b00] font-bold sm:text-[40px] text-[35px]">about me</p>
-            <h1 className='sm:text-4xl text-lg font-bold font-serif'>Background Info</h1>
-            <h2 className='sm:text-xl text-[12px] font-serif mt-5'>Learn about me and my skills</h2>
+            <p className="text-[#964b00] font-bold sm:text-[40px] text-[35px] text-center">About Me</p>
+            <h1 className='sm:text-4xl text-lg font-bold font-serif mt-4'>Background Info</h1>
+            <h2 className='sm:text-xl text-[12px] font-serif mt-5'>Learn about the projects I've created</h2>
         </div>
 
         {/* Description and Skills */}
