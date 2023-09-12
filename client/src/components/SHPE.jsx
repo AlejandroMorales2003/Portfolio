@@ -25,7 +25,7 @@ const SHPE = () => {
                                 <div>
                                     <p className='sm:text-[20px] text-[12px] font-serif'>
                                     The Society of Hispanic Professional Engineers (SHPE) is a national non-profit that empower and
-                                    support Hispanic and Latinx professionals and students in the fields of science, technology,
+                                    support Hispanic, Latinx professionals and students in the fields of science, technology,
                                     engineering, and mathematics (STEM). The primary goals and impact of SHPE include professional
                                     development, educational support, community and networking, confenrences, career opportunities,
                                     and leadership development.

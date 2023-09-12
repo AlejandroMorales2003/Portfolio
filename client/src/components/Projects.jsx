@@ -14,11 +14,11 @@ const Projects = () => {
             <h2 className='sm:text-xl text-[12px] font-serif mt-5'>Learn about the projects I've created</h2>
         </div>
 
-        <div name="BigContainer" className="mt-4 flex w-full lg:px-44 sm:px-12 px-4">
+        <div name="BigContainer" className="mt-4 flex w-full 2xl:px-36 lg:px-20 sm:px-12 px-4">
             <div name="shpe website" className='flex xl:flex-row flex-col h-full w-full bg-white border-[black] border-[2px]'>
 
-                <div className='xl:pr-0 xl:py-0 py-6 sm:px-0 px-6 flex-1 flex justify-center  border-black xl:border-r-[2px] xl:border-b-0 border-b-[2px]'>
-                    <img className='object-cover sm:w-[675px] w-[325px] sm:h-[400px] h-[175px]' src={SHPE} alt="shpe website img"/>
+                <div className='flex-1 border-black xl:border-r-[2px] xl:border-b-0 border-b-[2px]'>
+                    <img className='object-fill h-auto' src={SHPE} alt="shpe website img"/>
                 </div>
 
                 <div className='flex-1'>
@@ -27,7 +27,7 @@ const Projects = () => {
                         <h1 className='sm:text-3xl text-lg font-bold font-mono'>SHPE Website</h1>
                         <div className='mt-3 max-w-[700px]' >
                             <div>
-                                <p className='sm:text-[20px] text-[12px] font-serif'>
+                                <p className='2xl:text-[20px] sm:text-[16px] text-[12px] font-serif'>
                                 I developed an informative website for the Society of Hispanic Professional Engineers club. Club
                                 officers made specific requests that I updated, debugged, and maintained to the website.
                                 I used React, Node.js, JavaScript, HTML, and CSS.
@@ -35,7 +35,7 @@ const Projects = () => {
                             </div>
                         </div>
 
-                        <div className='mt-8 flex justify-center text-white'>
+                        <div className='mt-2 flex justify-center text-white'>
                             <a href='https://github.com/AlejandroMorales2003/SHPE' target="_blank" rel="noopener noreferrer">
                                 <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Github</button>
                             </a>
@@ -49,11 +49,11 @@ const Projects = () => {
             </div>
         </div>
 
-        <div name="BigContainer" className="mt-8 flex w-full lg:px-44 sm:px-12 px-4">
+        <div name="BigContainer" className="mt-4 flex w-full 2xl:px-36 lg:px-20 sm:px-12 px-4">
             <div name="prophets webiste" className='flex xl:flex-row flex-col h-full w-full bg-white border-[black] border-[2px]'>
 
-                <div className='xl:pr-0 xl:py-0 py-6 sm:px-0 px-6 flex-1 flex justify-center border-black xl:border-r-[2px] xl:border-b-0 border-b-[2px]'>
-                    <img className='object-cover sm:w-[675px] w-[325px] sm:h-[400px] h-[175px]' src={Prophets} alt="prophets img"/>
+                <div className='flex-1 border-black xl:border-r-[2px] xl:border-b-0 border-b-[2px]'>
+                    <img className='object-fill h-auto' src={Prophets} alt="prophets img"/>
                 </div>
 
                 <div className='flex-1'>
@@ -62,20 +62,20 @@ const Projects = () => {
                         <h1 className='sm:text-3xl text-lg font-bold font-mono'>Prophets</h1>
                         <div className='mt-3 max-w-[700px]' >
                             <div>
-                                <p className='sm:text-[20px] text-[12px] font-serif'>
+                                <p className='2xl:text-[20px] sm:text-[16px] text-[12px] font-serif'>
                                 I created an e-commerce website on GitHub that lists decals, accessories, and clothing for my car
                                 group in Hood River, Oregon. I used MongoDB, Postman, Node.js, JavaScript, and HTML.
                                 </p>
                             </div>
                         </div>
 
-                        <div className='mt-8 flex justify-center text-white'>
+                        <div className='mt-2 flex justify-center text-white'>
                             <a href='https://github.com/AlejandroMorales2003/prophetz' target="_blank" rel="noopener noreferrer">
                                 <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Github</button>
                             </a>
-                            <a href='/' target="_blank" rel="noopener noreferrer">
+                            {/* <a href='/' target="_blank" rel="noopener noreferrer">
                             <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500' >Website</button>
-                            </a>
+                            </a> */}
                         </div>
                         
                     </div>
@@ -83,11 +83,11 @@ const Projects = () => {
             </div>
         </div>
 
-        <div name="BigContainer" className="mt-8 flex w-full lg:px-44 sm:px-12 px-4">
+        <div name="BigContainer" className="mt-4 flex w-full 2xl:px-36 lg:px-20 sm:px-12 px-4">
             <div name="booknook website" className='flex xl:flex-row flex-col h-full w-full bg-white border-[black] border-[2px]'>
 
-                <div className='xl:pr-0 xl:py-0 py-6 sm:px-0 px-6 flex-1 flex justify-center border-black xl:border-r-[2px] xl:border-b-0 border-b-[2px]'>
-                    <img className='object-cover sm:w-[675px] w-[325px] sm:h-[400px] h-[175px]' src={BookNook} alt="booknook img"/>
+                <div className='flex-1 border-black xl:border-r-[2px] xl:border-b-0 border-b-[2px]'>
+                    <img className='object-fill h-auto' src={BookNook} alt="booknook img"/>
                 </div>
 
                 <div className='flex-1'>
@@ -96,20 +96,20 @@ const Projects = () => {
                         <h1 className='sm:text-3xl text-lg font-bold font-mono'>BookNook</h1>
                         <div className='mt-3 max-w-[700px]' >
                             <div>
-                                <p className='sm:text-[20px] text-[12px] font-serif'>
+                                <p className='2xl:text-[20px] sm:text-[16px] text-[12px] font-serif'>
                                 I created an e-commerce website on GitHub that lists decals, accessories, and clothing for my car
                                 group in Hood River, Oregon. I used MongoDB, Postman, Node.js, JavaScript, and HTML.
                                 </p>
                             </div>
                         </div>
 
-                        <div className='mt-8 flex justify-center text-white'>
+                        <div className='mt-2 flex justify-center text-white'>
                             <a href='https://github.com/Owen-Williamson/CS361' target="_blank" rel="noopener noreferrer">
                                 <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Github</button>
                             </a>
-                            <a href='/' target="_blank" rel="noopener noreferrer">
+                            {/* <a href='/' target="_blank" rel="noopener noreferrer">
                                 <button className='bg-black w-[100px] h-[50px] m-8 hover:scale-110 hover:text-[#cd8c4c] duration-500'>Website</button>
-                            </a>
+                            </a> */}
                         </div>
                         
                     </div>
