@@ -113,7 +113,7 @@ const Navbar = () => {
         {/* Social Icons */}
 
         {scrollPercent > 5.0 ? "" :
-        <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+        <div className='hidden xl:flex fixed flex-col top-[45%] left-0'>
             <ul>
                 {/* LinkedIn */}
                 <li className='w-[160px] h-[60px] flex ml-[-100px] hover:ml-[0px] duration-300 hover:text-[#cd8c4c]'>
