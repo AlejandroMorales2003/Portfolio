@@ -32,7 +32,7 @@ const About = () => {
         <div className='max-w-[700px] sm:h-[300px] h-[200px] flex flex-col items-center justify-center border-b-[2px]'>
             <p className="text-[#964b00] font-bold sm:text-[40px] text-[35px] text-center">About Me</p>
             <h1 className='sm:text-4xl text-lg font-bold font-serif mt-4'>Background Info</h1>
-            <h2 className='sm:text-xl text-[12px] font-serif mt-5'>Learn about the projects I've created</h2>
+            <h2 className='sm:text-xl text-[12px] font-serif mt-5'>Learn about me and my skills</h2>
         </div>
 
         {/* Description and Skills */}
@@ -46,10 +46,10 @@ const About = () => {
                     <p className='sm:text-xl text-[14px] font-serif mt-3'>
                         I'm a passionate young software developer looking to improve the lives of others. I have experience creating
                         small web applications to designing REST APIs for a large company. I love solving problems, and I have the 
-                        initiative to lead others to build a educated and fun work environment.
+                        initiative to lead others to build an educated and fun work environment.
                     </p>
                     <p className='sm:text-xl text-[14px] mt-5 font-serif'>
-                        I am always open to discuss any opportunities or a simple chat. Don't be afraid to be reach out!
+                        I am always open to a simple chat. Don't be afraid to be reach out!
                     </p>
                 </div>
             </div>
@@ -77,7 +77,7 @@ const About = () => {
                     </div>
 
                     {/* Technical Skill Images Container */}
-                    <div name="techimages" className={`${isChecked ? 'hidden': 'grid'} sm:text-[20px] text-[14px] font-serif w-full grid grid-cols-2 sm:grid-cols-3 sm:gap-16 gap-4 text-center py-8`}>
+                    <div name="techimages" className={`${isChecked ? 'hidden': 'grid'} sm:text-[18px] text-[14px] font-serif w-full grid grid-cols-2 sm:grid-cols-3 sm:gap-8 gap-4 text-center py-8`}>
                         <div className='shadow-md shadow-black hover:scale-105 duration-500'>
                             <img className='w-32 h-32 m-auto' src={Python} alt="Python Icon"/>
                             <p className=''>Python</p>
@@ -105,7 +105,7 @@ const About = () => {
                     </div>
 
                     {/* Soft Skill Image Container */}
-                    <div name="softimages" className={`${!isChecked ? 'hidden': 'grid'} sm:text-[20px] text-[14px] font-serif w-full grid grid-cols-2 sm:grid-cols-3 sm:gap-16 gap-4 text-center py-8`}>
+                    <div name="softimages" className={`${!isChecked ? 'hidden': 'grid'} sm:text-[18px] text-[14px] font-serif w-full grid grid-cols-2 sm:grid-cols-3 sm:gap- gap-4 text-center py-8`}>
                         <div className='shadow-md shadow-black hover:scale-105 duration-500'>
                             <img className='object-fill w-32 h-32 m-auto' src={Team} alt="Python Icon"/>
                             <p>Teamwork</p>

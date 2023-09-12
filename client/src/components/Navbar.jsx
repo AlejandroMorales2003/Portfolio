@@ -57,7 +57,7 @@ const Navbar = () => {
                 </li>
                 <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105'>
                     <Link to="shpe" smooth={true} offset={-75} duration={700}>
-                        SHPE
+                        Shpe
                     </Link>
                 </li>
                 <li className='duration-300 hover:text-[#cd8c4c] hover:scale-105'>
